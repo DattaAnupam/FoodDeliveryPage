@@ -327,7 +327,13 @@ header {
     line-height: 145%;
 }
 
-.btn-playStore {
-    margin-bottom: 2%;
-    margin-right: 2%;
+.app-btn {
+    height: 60px;
+    width: auto;
+    margin-right: 5%;
+}
+
+.app-btn:hover {
+    transform: scale(1.2);
+    transition: scale 0.4s;
 }
