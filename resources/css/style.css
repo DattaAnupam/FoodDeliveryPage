@@ -335,5 +335,5 @@ header {
 
 .app-btn:hover {
     transform: scale(1.2);
-    transition: scale 0.4s;
+    transition: transform 0.4s;
 }
