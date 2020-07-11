@@ -71,7 +71,7 @@
     </section>
 
     <section class="section-meals">
-        <ul class="meals-showcase">
+        <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
                     <img src="resources/images/1.jpg" alt="Korean bibimbap with egg and vegetables" >
@@ -93,7 +93,8 @@
                 </figure>
             </li>
         </ul>
-        <ul class="meals-showcase">
+        <!-- .clearfix will clear the float property as last step -->
+        <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
                     <img src="resources/images/5.jpg" alt="Paleo beef steak with vegetables" >
@@ -115,6 +116,34 @@
                 </figure>
             </li>
         </ul>
-    </section>
+    </section>  <!-- End of section-meals -->
+
+    <section class="section-steps">
+        <div class="row">
+            <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img src="resources/images/app-iPhone.png" alt="omnifood app" class="app-screen" >
+            </div>  <!-- End of col span-1-of-2 for Mobile App image -->
+            <div class="col span-1-of-2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+                </div>  <!-- End of step 2-->
+                <div class="works-step">
+                    <div>3</div>
+                    <p>Enjoy your meal after less than 20 minutes. See you the next </p>
+                </div>  <!-- End of step 3-->
+                <a href="#"><img src="resources/images/download-app-android.png" alt="Play Store logo" height="60px" width="auto" class="btn-playStore"></a>
+                <a href="#"><img src="resources/images/app-store-logo.png" alt="App Store logo" height="80px" width="auto"></a>
+            </div>  <!-- End of col span-1-of-2 for working steps -->
+        </div>  <!-- End of row for app image and working steps -->
+    </section>  <!-- End of Section-steps -->
 </body>
 </html>
