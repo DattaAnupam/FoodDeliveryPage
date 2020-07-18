@@ -116,6 +116,13 @@ h2::after {
     margin-bottom: 10px;
 }
 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #E67E22;
+    font-size: 120%;
+}
 
 /*--- BUTTONS -----*/
 .btn:link,
@@ -156,6 +163,12 @@ h2::after {
 .btn-ghost:visited {
     border: 1px solid #bf6516;
     color: #fff;
+}
+
+/* ---- LINKS ---- */
+a{
+    color: #22A7F0;
+    text-decoration: none;
 }
 
 /* ----------------------------------- */
@@ -336,4 +349,22 @@ header {
 .app-btn:hover {
     transform: scale(1.2);
     transition: transform 0.4s;
+}
+
+/* ----------------------------------- */
+/* CITIES */
+/* ----------------------------------- */
+
+.section-cities img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.twitter {
+    color: #22A7F0;
+}
+
+.city-feature {
+    line-height: 200px;
 }
