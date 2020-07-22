@@ -134,8 +134,7 @@ h2::after {
 
 .btn:link,
 .btn:visited,
-input[type="submit"]:link,
-input[type="submit"]:visited {
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -146,8 +145,7 @@ input[type="submit"]:visited {
 
 .btn-full:link,
 .btn-full:visited,
-input[type="submit"]:link,
-input[type="submit"]:visited {
+input[type=submit] {
     background-color: #E67E22;
     border: 1px solid #E67E22;
     color: #fff;
@@ -377,7 +375,7 @@ header {
 }
 
 .twitter {
-    color: #22A7F0;
+    color: #55acee;
 }
 
 .city-feature {
