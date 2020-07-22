@@ -134,12 +134,7 @@ h2::after {
 
 .btn:link,
 .btn:visited,
-<<<<<<< HEAD
 input[type=submit] {
-=======
-input[type="submit"]:link,
-input[type="submit"]:visited {
->>>>>>> 00f021b9effa4d2fd54f7be8b04cc1f3f81e8a05
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -150,12 +145,7 @@ input[type="submit"]:visited {
 
 .btn-full:link,
 .btn-full:visited,
-<<<<<<< HEAD
 input[type=submit] {
-=======
-input[type="submit"]:link,
-input[type="submit"]:visited {
->>>>>>> 00f021b9effa4d2fd54f7be8b04cc1f3f81e8a05
     background-color: #E67E22;
     border: 1px solid #E67E22;
     color: #fff;
@@ -514,7 +504,6 @@ textarea {
     height: 100px;
 }
 
-<<<<<<< HEAD
 input[type=checkbox] {
     margin:10px 10px 10px 0;
 }
@@ -594,5 +583,3 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-=======
->>>>>>> 00f021b9effa4d2fd54f7be8b04cc1f3f81e8a05
