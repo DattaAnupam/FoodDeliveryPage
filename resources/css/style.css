@@ -122,11 +122,15 @@ h2::after {
     text-align: center;
     color: #E67E22;
     font-size: 120%;
+    margin-top: -2px;
+    margin-right: 5px;
 }
 
 /*--- BUTTONS -----*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"]:link,
+input[type="submit"]:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -136,7 +140,9 @@ h2::after {
 } 
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"]:link,
+input[type="submit"]:visited {
     background-color: #E67E22;
     border: 1px solid #E67E22;
     color: #fff;
@@ -159,8 +165,8 @@ h2::after {
    background-color: #bf6516;
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:hover,
+.btn-ghost:active {
     border: 1px solid #bf6516;
     color: #fff;
 }
@@ -171,6 +177,7 @@ a{
     text-decoration: none;
 }
 
+
 /* ----------------------------------- */
 /* HEADER SECTION */
 /* ----------------------------------- */
@@ -180,6 +187,7 @@ header {
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -366,5 +374,128 @@ header {
 }
 
 .city-feature {
-    line-height: 200px;
+    line-height: 150%;
 }
+
+/* ----------------------------------- */
+/* TESTIMONIALS */
+/* ----------------------------------- */
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+blockquote {
+    position: relative;
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 20px;
+}
+
+
+blockquote::before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+cite img {
+    height: 45px;
+    padding-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+
+/* ----------------------------------- */
+/* PLANS */
+/* ----------------------------------- */
+.section-plans {
+    background-color: rgb(236, 236, 236);
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 5px 2px 5px #d0d0d0;   
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: rgb(250, 250, 244);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: #E67E22;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 400;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
+/* ----------------------------------- */
+/* FORM */
+/* ----------------------------------- */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
