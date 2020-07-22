@@ -134,16 +134,8 @@ h2::after {
 
 .btn:link,
 .btn:visited,
-<<<<<<< HEAD
-<<<<<<< HEAD
 input[type="submit"]:link,
 input[type="submit"]:visited {
-=======
-input[type=submit] {
->>>>>>> featureBrunch
-=======
-input[type=submit] {
->>>>>>> featureBrunch
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -154,16 +146,8 @@ input[type=submit] {
 
 .btn-full:link,
 .btn-full:visited,
-<<<<<<< HEAD
-<<<<<<< HEAD
 input[type="submit"]:link,
 input[type="submit"]:visited {
-=======
-input[type=submit] {
->>>>>>> featureBrunch
-=======
-input[type=submit] {
->>>>>>> featureBrunch
     background-color: #E67E22;
     border: 1px solid #E67E22;
     color: #fff;
@@ -522,11 +506,6 @@ textarea {
     height: 100px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> featureBrunch
 input[type=checkbox] {
     margin:10px 10px 10px 0;
 }
@@ -606,7 +585,3 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-<<<<<<< HEAD
->>>>>>> featureBrunch
-=======
->>>>>>> featureBrunch
