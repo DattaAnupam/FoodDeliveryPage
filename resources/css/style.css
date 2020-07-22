@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+*:focus{
+    outline: none;
+}
+
 html {
     font-family: 'Lato', 'Arial', sans-serif;
     background-color: #fff;
@@ -127,10 +131,10 @@ h2::after {
 }
 
 /*--- BUTTONS -----*/
+
 .btn:link,
 .btn:visited,
-input[type="submit"]:link,
-input[type="submit"]:visited {
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -141,8 +145,7 @@ input[type="submit"]:visited {
 
 .btn-full:link,
 .btn-full:visited,
-input[type="submit"]:link,
-input[type="submit"]:visited {
+input[type=submit] {
     background-color: #E67E22;
     border: 1px solid #E67E22;
     color: #fff;
@@ -156,7 +159,9 @@ input[type="submit"]:visited {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #bf6516;
 }
 
@@ -497,5 +502,9 @@ textarea {
 
 textarea {
     height: 100px;
+}
+
+input[type=checkbox] {
+    margin:10px 10px 10px 0;
 }
 
