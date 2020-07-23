@@ -138,11 +138,9 @@ input[type=submit] {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    transition: background-color 0.4s, border 0.4s, color 0.4s;
     -webkit-transition: background-color 0.4s, border 0.4s, color 0.4s;
     -o-transition: background-color 0.4s, border 0.4s, color 0.4s;
-    -moz-transition: background-color 0.4s, border 0.4s, color 0.4s;
-    -ms-transition: background-color 0.4s, border 0.4s, color 0.4s;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
 } 
 
 .btn-full:link,
@@ -185,9 +183,9 @@ a{
 /* ----------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/hero.jpg");
     background-image: -webkit-liner-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.7)), to(rgba(0,0,0,0.7))), url("images/hero.jpg");
     background-image: -o-linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/hero.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/hero.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -199,11 +197,9 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    transform: translate(-45%, -50%);
-        -webkit-transform: translate(-45%, -50%);
+    -webkit-transform: translate(-45%, -50%);
         -ms-transform: translate(-45%, -50%);
-        -moz-transform: translate(-45%, -50%);
-        -o-transform: translate(-45%, -50%);
+            transform: translate(-45%, -50%);
 }
 
 .logo {
@@ -215,17 +211,15 @@ header {
 }
 
 .logo:hover {
-    transform: scale(1.3);
-    -webkit-transform:;
-    -ms-transform:;
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
     opacity: 1.0;
-    transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
     transition: -webkit-transform 0.4s;
+    -o-transition: transform 0.4s;
+    transition: transform 0.4s;
     transition: transform 0.4s, -webkit-transform 0.4s;
-    -webkit-transition: transform 0.4s, -webkit-transform 0.4s;
-    -o-transition: transform 0.4s, -webkit-transform 0.4s;
-    -moz-transition: transform 0.4s, -webkit-transform 0.4s;
-    -ms-transition: transform 0.4s, -webkit-transform 0.4s;
 }
 
 /* ----------------------------------- */
@@ -259,16 +253,10 @@ header {
     border-bottom: 2px solid #E67E22;
     border-right: 2px solid #E67E22;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     font-size: 20px;
-    transition: border-bottom 0.4s, border-right 0.4s, font-size 0.4s;
     -webkit-transition: border-bottom 0.4s, border-right 0.4s, font-size 0.4s;
     -o-transition: border-bottom 0.4s, border-right 0.4s, font-size 0.4s;
-    -moz-transition: border-bottom 0.4s, border-right 0.4s, font-size 0.4s;
-    -ms-transition: border-bottom 0.4s, border-right 0.4s, font-size 0.4s;
+    transition: border-bottom 0.4s, border-right 0.4s, font-size 0.4s;
 }
 
 /* ----------------------------------- */
@@ -308,25 +296,21 @@ header {
     width: 100%;
     height: auto;
     opacity: 0.7;
-    transform: scale(1.03);
     -webkit-transform: scale(1.03);
         -ms-transform: scale(1.03);
+            transform: scale(1.03);
 }
 
 .meal-photo img:hover {
-    transform: scale(1.15);
     -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    -moz-transform: scale(1.15);
-    -o-transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.4s;
-    transition: opacity 0.4s, -webkit-transform 0.5s;
+        -ms-transform: scale(1.15);
+            transform: scale(1.15);
     -webkit-transition: opacity 0.4s, -webkit-transform 0.5s;
-    -o-transition: opacity 0.4s, -webkit-transform 0.5s;
+    transition: opacity 0.4s, -webkit-transform 0.5s;
+    -o-transition: transform 0.5s, opacity 0.4s;
+    transition: transform 0.5s, opacity 0.4s;
     transition: transform 0.5s, opacity 0.4s, -webkit-transform 0.5s;
     opacity: 1.0;
-    -moz-transition: opacity 0.4s, -webkit-transform 0.5s;
-    -ms-transition: opacity 0.4s, -webkit-transform 0.5s;
 }
 
 /* ----------------------------------- */
@@ -409,7 +393,7 @@ header {
 /* ----------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(./images/back-customers.jpg);
+    background-image: -webkit-linear-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(./images/back-customers.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/back-customers.jpg);
     background-size: cover;
