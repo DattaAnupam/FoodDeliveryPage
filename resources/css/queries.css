@@ -1,21 +1,18 @@
-/* Big tablet to 1200px (widths smallet that the 1140px row)*/
+/* --- Big tablet to 1200px (widths smallet that the 1140px row) --- */
 @media only screen and (max-width: 1200px) {
     .hero-text-box {
         width: 100%;
         padding: 0 5px;
     }
-    .row {padding: 0 5px;}
+    
+    .row { padding: 0 5px; }
 }
 
-/* Small tablets to Big tablets: from 768 to 1023px */
+/* --- Small tablets to Big tablets: from 768 to 1023px --- */
 @media only screen and (max-width: 1023px) {
 
-    body {
-        font-size: 18px;
-    }
-    section {
-        padding: 60px 0;
-    }
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
 
     h1 {
         font-size: 180%;
@@ -44,26 +41,22 @@
         width: 10%;
         padding-bottom: 2%;
     }
-    .steps-box {
-        margin-top: 10px;
-    }
-    .steps-box:last-child {
-        margin-top: 10px;
-    }
-    .works-step {
-        margin-bottom: 40px;
-    }
-    .works-step:last-of-type {
-        margin-bottom: 60px;
-    }    
+    .steps-box { margin-top: 10px; }
+
+    .steps-box:last-child { margin-top: 10px; }
+
+    .works-step { margin-bottom: 40px; }
+
+    .works-step:last-of-type { margin-bottom: 60px; }
+
     .app-btn {
         height: 40px;
         width: auto;
         margin-right: 5%;
     }
-    .city-feature {
-        font-size: 80%;
-    }
+    
+    .city-feature { font-size: 80%; }
+    
     blockquote::before {
         content: "\201C";
         font-size: 250%;
@@ -72,61 +65,57 @@
         top: -8px;
         left: -8px;
     }
+    
     .plan-box {
         width: 90%;
         margin-left: 5%;
         border: none;
         font-size: 70%;
     }
-    .contact-form {
-        width: 80%;
-    }
+    
+    .contact-form { width: 80%; }
+    
     footer {
         padding: 10px;
         font-size: 50%;
     }
 }
 
-/* Small phones to small tablets: from 481 to 767px */
+/* --- Small phones to small tablets: from 481 to 767px --- */
 @media only screen and (max-width: 767px) {
-    body {
-        font-size: 14px;
-    }
-    section {
-        padding: 30px 0;
-    }
-    h1 {
-        font-size: 180%;
-    }
-    h2 {
-        font-size: 150%;
-    }
+    body { font-size: 14px; }
+
+    section { padding: 30px 0; }
+
+    h1 { font-size: 180%; }
+
+    h2 { font-size: 150%; }
+
     .row,
-    .hero-text-box {
-        padding: 0 6%;
-    }
+    .hero-text-box { padding: 0 6%; }
+
     .col {
         width: 100%;
         margin: 0 0 4% 0;
     }
-    .main-nav {
-        display: none;
-    }
+    
+    .main-nav { display: none; }
+    
     .logo {
         height: 50px;
         margin-top: 10px;
         margin-left: 20px;
     }
+    
     .long-copy {
         width: 100%;
         margin-left: 0%;
     }
-    .steps-box:first-child {
-        text-align: center;
-    }
-    .works-step {
-        margin-bottom: 20px;
-    }
+    
+    .steps-box:first-child { text-align: center; }
+    
+    .works-step { margin-bottom: 20px; }
+    
     .works-step div {
         font-size: 70%;
         height: 10%;
@@ -134,28 +123,22 @@
         padding-bottom: 2%;
         margin-right: 5%;
     }
-    .works-step:last-of-type {
-        margin-bottom: 40px;
-    }    
+    
+    .works-step:last-of-type { margin-bottom: 40px; }    
+    
     .app-btn {
         height: 40px;
         width: auto;
         margin-right: 5px;
     }
-    .app-btn:first-child {
-        margin-left: 50px;
-    }
-    .app-screen {
-        width: 40%;
-    }
+    
+    .app-btn:first-child { margin-left: 50px; }
+    
+    .app-screen { width: 40%; }
 }
 
 /* Small phones from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    .section {
-        padding: 25px 0;
-    }
-    .contact-form {
-        width: 100%;
-    }
+    .section { padding: 25px 0; }
+    .contact-form { width: 100%; }
 }
