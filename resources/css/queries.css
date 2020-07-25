@@ -100,7 +100,36 @@
     }
     
     .main-nav { display: none; }
+
+    .mobile-nav-icon { display: inline-block; }
+
+    .main-nav { 
+        float: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .main-nav li { display: block; }
+
+    .main-nav li a:link, 
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 120%;
+    }
+
+    .sticky .main-nav {
+        float: left;
+        display: block;
+        border: 0;
+        margin-top: 5px;
+    }
     
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+
+    .sticky .mobile-nav-icon i { color: #555; }
+
     .logo {
         height: 50px;
         margin-top: 10px;

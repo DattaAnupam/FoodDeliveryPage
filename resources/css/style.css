@@ -288,7 +288,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(256, 255, 255, 0.85);
+    background-color: rgba(256, 255, 255, 0.93);
     box-shadow: 0 2px 5px rgb(238, 236, 236);
     z-index: 9999;
 }
@@ -309,6 +309,19 @@ header {
 .sticky .logo { display: none; }
 
 .sticky .logo-black { display: block; }
+
+/* --- MOBILE NAV --- */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
 
 /* ----------------------------------- */
 /* --- FEATURES --- */
@@ -610,4 +623,22 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
+}
+
+/* ----------------------------------- */
+/* --- ANIMATIONS --- */
+/* ----------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animate__animated,
+.js--wp-2.animate__animated,
+.js--wp-3.animate__animated {
+    opacity: 1;
+    animation-duration: 1s;
 }
