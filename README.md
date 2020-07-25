@@ -1,4 +1,4 @@
-# This is a food delivery wesite's main page. 
+# This is a food delivery website's main page. 
 
 ## Features:
 * A responsive nav bar which gets hidden when the page is opened into phones' web browsers.
@@ -11,4 +11,4 @@
 * CSS3
 * jQuery
 
-click on the *[link](https://dattaanupam.github.io/FoodDeliveryPage/)* to see the webpage in action.
+##### click on the *[link](https://dattaanupam.github.io/FoodDeliveryPage/)* to see the webpage in action.
